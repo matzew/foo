@@ -68,6 +68,11 @@
             <artifactId>resteasy-jackson-provider</artifactId>
             <version>${resteasy.jackson.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-multipart-provider</artifactId>
+            <version>${resteasy.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
