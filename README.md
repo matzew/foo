@@ -41,10 +41,10 @@ will return a JSON object of a form:
 
 Send message to devices
 
-PS: For the endpoint to work you must setup a [UnifiedPush server](https://github.com/aerogear/aerogear-unifiedpush-server/) and adjust the Constants.java file to point to it"
+PS: For the endpoint to work you must setup a [UnifiedPush server](https://github.com/aerogear/aerogear-unifiedpush-server/) and adjust the Constants.java file to point to it
 
 ```
 curl -v \
      -X POST http://localhost:8080/aerogear-integration-tests-server/rest/push/send \
      -d  'This is my message'
-'```
+```
