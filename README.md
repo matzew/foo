@@ -23,7 +23,7 @@ Handles a multipart request by simply echoing backs to the client the values pos
 **NOTE** files are not persisted on disk.
 
 ```
-curl -v 
+curl -v \
 	 -F "somekey=somevalue" \
 	 -F "file=@/path/to/a/filename" \
 	 http://localhost:8080/aerogear-integration-tests-server/rest/upload
